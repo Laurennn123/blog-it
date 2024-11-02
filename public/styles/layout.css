@@ -29,10 +29,37 @@
     align-items: center;
     justify-content: center;
     height: 50px;
-    width: 130px;    
+    width: 140px;    
     text-align: center;
     background-color: black;
     border-radius: 50px;
 }
 
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    margin-top: 100px;
+    margin-left: 89.5px;
+    gap: 40px;
+}
 
+.start-reading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 16%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.footer-container {
+    margin-top: auto;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 75px;
+}
