@@ -1,0 +1,60 @@
+#nav {
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.pub-user-container {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 50px;
+}
+
+.publish-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publish-container > a {
+    font-size: 0.8125rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #13E508;
+}
+
+.user-icon {
+    width: 33px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title-paragraph-container {
+    width: 50%;
+}
+
+#title, #body {
+    color: gray;
+    outline: unset;
+    font-weight: 200;
+}
+
+#body {
+    margin-top: 10px;
+}
